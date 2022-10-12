@@ -1,0 +1,96 @@
+/* Cards */
+*{
+    transition: all .7s ease;
+}
+.wrapper {
+  border-radius: 5px;
+  display: inline-block;
+  background: #fff;
+  position: relative;
+  width: 230px;
+  height: 25.4em;
+  overflow: hidden;
+  box-shadow: 0px 10px 25px #999;
+  margin: 3em 0 0 0;
+}
+.pic img {
+  height: 160px;
+  margin-bottom: 14px;
+}
+  
+  .wrapper:hover .pic,
+  .wrapper:focus .pic {
+    transform: scale(1.1);
+    transition: all .7s ease;
+    
+  }
+  p.header {
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+p.content {
+  padding: 0 20px;
+  font-size: 14px;
+  text-align: left;
+  height: 9.8em;
+}
+.button-center {
+  background-color: #4d4d4d;
+  /* margin-top: 20px; */
+}
+button.leesmeer1 {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  background: #4d4d4d !important;
+  height: 40px;
+}
+button.leesmeer1:hover {
+width: 100%;
+border: 0;
+border-radius: 0;
+background: #09b1c5 !important;
+}
+a .button-center i {
+    color: #fff;
+    margin-left: 5px;
+    transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
+}
+a .button-center:hover i {
+    margin: 0 0 0 20px;
+}
+.load-more {
+    background: #4d4d4d;
+    border: 0;
+    border-radius: 0;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+.load-more:hover {
+  background: #09b1c5 !important;
+  border: 1px solid #09b1c5 !important;
+  border-radius: 0;
+  font-size: 19px;
+  color: #fff !important;
+  text-transform: capitalize;
+}
+.card-btn{
+  text-align: center;
+}
+.dialog-img img {
+  width: 100%;
+  /* padding: 14px; */
+}
+.modal-dialog {
+  max-width: 70em;
+}
+button.btn-got {
+  background: #4d4d4d !important;
+  border: 0;
+  border-radius: 0;
+}
+button.btn-got:hover {
+  background: #09b1c5 !important;
+}

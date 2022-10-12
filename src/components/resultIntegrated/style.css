@@ -1,0 +1,11 @@
+.intCarousel {
+    background: #000;
+    padding-bottom: 3em;
+}
+.resCarousel {
+    background: #0883eb;
+}
+.carousel-indicators {
+    margin-bottom: -2rem !important;
+    display: none !important;
+}

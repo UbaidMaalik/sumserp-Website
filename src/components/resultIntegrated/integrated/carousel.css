@@ -1,0 +1,16 @@
+.slide {
+    width: 75%;
+    margin: 0 auto;
+}
+.integrate h3 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 800;
+}
+.integrate p {
+    font-size: 18px;
+    color: #fff;
+}
+.integrate {
+    padding: 3em 0 0 0;
+}
