@@ -24,6 +24,10 @@ const QuestionFaq = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>{item.des}</p>
+
+                    {item.list &&
+                      item.list.length &&
+                      item.list.map((l) => <li>{l}</li>)}
                   </AccordionItemPanel>
                 </AccordionItem>
               ))}

@@ -5,6 +5,18 @@ const data = [
   },
   {
     title: "What is SUMS-ERP?",
+    list: [
+      "UI/UX",
+      "Data Flow",
+      "Architecture",
+      "iv-User Friendly",
+      "Increase Automation",
+      "Campus Oriented",
+      "Easy to use",
+      "Decrease paper work by (80%)",
+      "Dedicated Server",
+      "Highly Secure",
+    ],
     des: "SUMS-ERP (Smart University Management System) is a pioneer management system for all educational organizations. SUMS-ERP is much different from another MIS, or ERP’s. There is some factor which makes SUMS-ERP different from other software’s.",
   },
   {
