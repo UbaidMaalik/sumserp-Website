@@ -29,30 +29,24 @@ const Professional = () => {
               <span className="material-icons manage">manage_accounts</span>
               <h3>Managment</h3>
               <p>
-                Design academics structure, curiclam and other organizational
-                affairs
+                Managment can use thier modules to easily manipulate thier tasks
+                by using SUMS ERP.
               </p>
             </Col>
             <Col xs={12} sm={4} lg={4} className="student">
               <span className="material-icons person">group</span>
               <h3>Student</h3>
               <p>
-                Design academics structure, curiclam and other organizational
-                affairs
+                Students portals is a special module for students where they can
+                solve thier many queries released with fee & LMS.
               </p>
             </Col>
             <Col xs={12} sm={4} lg={4} className="staff">
               <span className="material-icons staff1">school</span>
               <h3>Staff</h3>
               <p>
-                Design academics structure, curiclam and other organizational
-                affairs
+                Staff can manage thier student learning and all of thier task.
               </p>
-            </Col>
-            <Col xs={12} sm={12} lg={12} className="pro-btn">
-              <Button variant="light" className="btn-more">
-                See More
-              </Button>
             </Col>
           </Row>
         </Container>

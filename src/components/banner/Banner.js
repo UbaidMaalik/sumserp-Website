@@ -30,10 +30,12 @@ const Banner = () => {
                 </h4>
                 <h5>Establish connectivity around the organization.</h5>
                 <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                  corrupti, esse ipsam pariatur reiciendis asperiores labore
-                  adipisci enim aut quasi totam dolor eaque, aliquid voluptas
-                  facere exercitationem blanditiis.
+                  SUMS ( Smart University Managment System) is a first cloud
+                  base ERP for collages / Institute / Universities. By using
+                  this ERP you can manage & digitize our complete organization.
+                  Form student ports to staff portals A to Z everything is
+                  include in this ERP, so an organization can easily manage
+                  their daily tasks.
                 </p>
               </div>
               <div className="banner-btn">

@@ -10,11 +10,11 @@ const SimpleWay = () => {
             <div className="left-side">
               <h3>Simple way for educational tasks</h3>
               <p>
-                Establish connectivity around the organization. A lot of tools
-                which makes your task easy and fast. <br />
-                We design and develop services for customers of all sizes,
-                specializing in modern websites and Complete Managment System
-                For Collage Institute / University
+                Establish connectivity around the organization tasks because of
+                SUMS ERP digitize complete educational institute such as
+                Collage, Nursing Institute, Universities <br />
+                SUMS ERP manage save and manipulate all university task in a
+                single way. Having a smart & simple.
               </p>
             </div>
           </Col>

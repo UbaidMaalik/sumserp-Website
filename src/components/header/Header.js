@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="dark">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        variant="dark"
+        className="nav-bg"
+      >
         <Container>
           <Navbar.Brand href="#home">
             <Image src="images/logo.png" className="logo" />

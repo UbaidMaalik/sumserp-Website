@@ -31,3 +31,11 @@
     color: var(--white);
     transform: translateY(0px) !important;
 }
+
+@media (max-width:767px) {
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        background: #0260b0;
+        float: left !important;
+    }
+}

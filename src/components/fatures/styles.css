@@ -94,3 +94,8 @@ button.btn-got {
 button.btn-got:hover {
   background: #09b1c5 !important;
 }
+@media (max-width:767px) {
+.feature-box-1 {
+  width: 95%;
+}
+}

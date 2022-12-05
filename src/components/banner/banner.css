@@ -123,4 +123,12 @@ button.btn-plan {
       opacity: 0;
     }
   }
-  
+  @media (max-width:767px) {
+    .banner-left h3 {
+      font-size: 28px;
+    }
+    .banner-sums {
+      width: 100%;
+      clear: both;
+  }
+  }

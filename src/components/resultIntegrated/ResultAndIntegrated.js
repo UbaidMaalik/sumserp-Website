@@ -8,11 +8,11 @@ const ResultAndIntegrated = () => {
     <>
       <Container fluid={true}>
         <Row>
-          <Col xs={12} sm={6} lg={6} className="intCarousel">
-            <IntegratedCarousel />
-          </Col>
-          <Col xs={12} sm={6} lg={6} className="resCarousel">
+          <Col xs={12} sm={12} lg={12} className="resCarousel">
             <Result />
+          </Col>
+          <Col xs={12} sm={12} lg={12} className="intCarousel">
+            <IntegratedCarousel />
           </Col>
         </Row>
       </Container>

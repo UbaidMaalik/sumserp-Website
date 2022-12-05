@@ -1,15 +1,17 @@
 .slide {
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
 }
 .integrate h3 {
     font-size: 40px;
-    color: #fff;
+    color: #000;
     font-weight: 800;
+    text-align: center;
 }
 .integrate p {
     font-size: 18px;
-    color: #fff;
+    color: #000;
+    text-align: center;
 }
 .integrate {
     padding: 3em 0 0 0;

@@ -17,8 +17,9 @@ const Feature = () => {
                 <div className="feature-content">
                   <h5>Tracking</h5>
                   <p>
-                    I design and develop services for customers of all sizes,
-                    specializing in creating stylish, modern websites.
+                    SUMS ERP is applicable to track your daily tasks, online
+                    addmission & accounts queries. Tracking all task is very
+                    simple in SUMS-ERP.
                   </p>
                 </div>
               </div>
@@ -31,10 +32,12 @@ const Feature = () => {
                   <i className="fa fa-user"></i>
                 </div>
                 <div className="feature-content">
-                  <h5>Bills</h5>
+                  <h5>Reports</h5>
                   <p>
-                    I design and develop services for customers of all sizes,
-                    specializing in creating stylish, modern websites.
+                    SUMS ERP generate consolidated & updated, informative
+                    reports. Help an educational organization to disclose
+                    unknown information & also facilities decision makin
+                    process.
                   </p>
                 </div>
               </div>
@@ -49,8 +52,9 @@ const Feature = () => {
                 <div className="feature-content">
                   <h5>Documents</h5>
                   <p>
-                    I design and develop services for customers of all sizes,
-                    specializing in creating stylish, modern websites.
+                    SUMS ERP provide a detailed documentation helps users to
+                    improve workflow & solve users queries. Documentation also
+                    save time & emergy to find a sloution.
                   </p>
                 </div>
               </div>
