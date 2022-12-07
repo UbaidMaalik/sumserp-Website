@@ -8,61 +8,88 @@ const Feature = () => {
       <section class="contact-section mt-5" id="contact">
         <Container>
           <Row>
+            <Col xs={12} sm={12} lg={12}>
+                <div className="cont">
+                  <h3>DROP YOUR LINE</h3>
+                  <p>Ask a question</p>
+                </div>
+            </Col>
+          </Row>
+          <Row className="mt-4">
             <Col xs={6} sm={6} lg={6}>
-            <h3>Contact</h3>
               <form
                 id="myForm"
                 method="https://api.emailjs.com/api/v1.0/email/send"
                 action="javascript:function()"
               >
-                <div class="form-group">
-                  <input
-                    type="text"
-                    id="username"
-                    required
-                    className="form-control mt-3"
-                    placeholder="user name"
-                  />
-                </div>
-                <div className="form-group">
-                  <input
-                    type="text"
-                    id="email"
-                    required
-                    className="form-control"
-                    placeholder="email"
-                  />
-                </div>
-                <div className="form-group">
-                  <input
-                    type="text"
-                    id="subject"
-                    required
-                    className="form-control"
-                    placeholder="subject"
-                  />
-                </div>
+                <Row>
+                  <Col xs={6} sm={6} lg={6}>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          id="username"
+                          required
+                          className="form-control"
+                          placeholder="Name"
+                        />
+                      </div>
+                  </Col>
+                  <Col xs={6} sm={6} lg={6}>
+                      <div className="form-group">
+                        <input
+                          type="text"
+                          id="lastname"
+                          required
+                          className="form-control"
+                          placeholder="Last name"
+                        />
+                      </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xs={6} sm={6} lg={6}>
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          id="email"
+                          required
+                          className="form-control"
+                          placeholder="Email"
+                        />
+                      </div>
+                  </Col>
+                  <Col xs={6} sm={6} lg={6}>
+                      <div className="form-group">
+                        <input
+                          type="number"
+                          id="phone"
+                          required
+                          className="form-control"
+                          placeholder="Phone"
+                        />
+                      </div>
+                  </Col>
+                </Row>
                 <div className="form-group">
                   <textarea
                     rows="8"
                     className="form-control"
                     required
-                    placeholder="description"
-                    id="description"
+                    placeholder="Message"
+                    id="message"
                   ></textarea>
                 </div>
                 <div className="form-group">
                   <input
                     type="submit"
-                    value="Submit"
-                    className="btn btn-primary"
+                    value="Send"
                     id="btn"
                   />
                 </div>
               </form>
             </Col>
             <Col xs={6} sm={6} lg={6}>
-                <Image src="./images/build.jpg" className="w-100" />
+                <Image src="./images/build.png" className="w-100" />
             </Col>
           </Row>
         </Container>
