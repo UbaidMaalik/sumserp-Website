@@ -5,6 +5,7 @@ import Feature from "./feature/Feature";
 import Professional from "./professional/Professional";
 import SimpleWay from "./simpleway/SimpleWay";
 import Testimonials from "./testimonials/Testimonials";
+import Contact from "./contact/Contact";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Professional />
       <ResultAndIntegrated />
       <Testimonials />
+      <Contact />
     </div>
   );
 };

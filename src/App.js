@@ -10,7 +10,6 @@ import Company from "./components/company/Company";
 import Price from "./components/pricing/Price";
 import HowTo from "./components/howto/HowTo";
 import Faqs from "./components/faq/Faqs";
-import Contact from "./components/home/contact/Contact";
 
 function App() {
   return (
@@ -25,7 +24,7 @@ function App() {
         <Route path="faqs" element={<Faqs />} />
         {/* <Route path="/redirect" element={<Navigate to="/home" />} /> */}
       </Routes>
-      <Contact/>
+
       <Footer />
     </BrowserRouter>
   );
